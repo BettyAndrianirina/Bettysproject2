@@ -29,19 +29,19 @@ if __name__ == "__main__":
         for j in range(len(grid[i])):
             
             if grid[i][j] == Maze.EMPTY:
-                print("  ", end = "")
+                print("Hey  ", end = "")
                     
             elif grid[i][j] == Maze.WALL:
-                print("##", end = "")
+                print("How are you", end = "")
                     
             elif grid[i][j] == Maze.START:
-                print("^^", end = "")
+                print("You look good", end = "")
                     
             elif grid[i][j] == Maze.END:
-                print("$$", end = "")
+                print("Yes", end = "")
                     
             elif grid[i][j] == Maze.VISITED:
-                print("..", end = "")
+                print("LOL", end = "")
                     
             else:
                 raise AssertionError
