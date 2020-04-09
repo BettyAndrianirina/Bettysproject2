@@ -18,7 +18,7 @@ if __name__ == "__main__":
         [ WALL, EMPTY, EMPTY, EMPTY, EMPTY,  WALL, EMPTY, EMPTY, EMPTY, WALL],
         [ WALL,  WALL, WALL,  WALL,  WALL, WALL, WALL,  WALL,WALL, WALL],
         [ WALL,  WALL, WALL, WALL, WALL,WALL,  WALL,  WALL, WALL,  START],
-        [ WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL, WALL],
+        [ EMPTY,  EMPTY,  EMPTY,  EMPTY,  EMPTY, EMPTY,  EMPTY,  EMPTY,  EMPTY, EMPTY],
     ]
                     
     Viewer.view(grid)
