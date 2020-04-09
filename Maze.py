@@ -69,12 +69,12 @@ if __name__ == "__main__":
                 
             elif grid[currentRow][currentCol] == WALL:
                 done = True
-                print("MESSAGE 3") # Hit wall.
+                print("SOLVED") # Hit wall.
 
             elif grid[currentRow][currentCol] == END:
                 done = True
                 solved = True
-                print("MESSAGE 4") # Solved.
+                print("You have Failed to escape .Future archeologists gaze upon your remains in bafflement") # Solved.
                 
             else:
                 pass # Do nothing
