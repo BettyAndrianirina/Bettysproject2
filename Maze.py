@@ -21,28 +21,7 @@ if __name__ == "__main__":
         [ WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL, WALL],
     ]
                     
-    for i in range(len(grid)):
-        for j in range(len(grid[i])):
-            
-            if grid[i][j] == EMPTY:
-                print("  ", end = "")
-                    
-            elif grid[i][j] == WALL:
-                print("##", end = "")
-                    
-            elif grid[i][j] == START:
-                print("^^", end = "")
-                    
-            elif grid[i][j] == END:
-                print("$$", end = "")
-                    
-            elif grid[i][j] == VISITED:
-                print("..", end = "")
-                    
-            else:
-                raise AssertionError
-            
-        print()
+    GridViewer.view(grid)
 
 
     print("Find a solution to get from ^^ to $$, using the characters " 
@@ -108,25 +87,4 @@ if __name__ == "__main__":
         print("MESSAGE 5") # Did not reach the end.
 
 
-    for i in range(len(grid)):
-        for j in range(len(grid[i])):
-            
-            if grid[i][j] == EMPTY:
-                print("  ", end = "")
-                    
-            elif grid[i][j] == WALL:
-                print("##", end = "")
-                    
-            elif grid[i][j] == START:
-                print("^^", end = "")
-                    
-            elif grid[i][j] == END:
-                print("$$", end = "")
-                    
-            elif grid[i][j] == VISITED:
-                print("..", end = "")
-                    
-            else:
-                raise AssertionError
-            
-        print()
+   GridViewer.view(grid)
